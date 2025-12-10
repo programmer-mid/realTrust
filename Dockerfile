@@ -5,7 +5,7 @@ FROM tomcat:10.1-jdk17
 RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Copy your WAR file as ROOT.war
-COPY realtrust.war /usr/local/tomcat/webapps/ROOT.war
+COPY RealTrust.war /usr/local/tomcat/webapps/ROOT.war
 
 # Expose Tomcat port
 EXPOSE 8080
